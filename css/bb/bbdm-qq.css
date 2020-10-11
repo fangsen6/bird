@@ -1,0 +1,136 @@
+*{ margin: 0; 
+	padding: 0; 
+	position: relative;
+	}
+	
+/*导航*/
+.nf{ width: 100%; 
+	 	height: 100px;
+		background: #ffffff;}
+
+.nf-1{ width: 1250px; 
+		height: 80px;
+		margin: 0 auto;}
+
+/*logo*/
+.logo{ float: left;
+		 margin: 11px;}
+
+.sf{ float: left;}
+
+.sf-1 ul li.manu:hover:before{
+				content: '';
+                display: block;
+                width: 100%;
+                height: 2px;
+                background: #126EB7;
+                position: absolute;
+                top: 60px;
+                left: 0px;
+
+}
+
+.sf-ul{ list-style-type: none;
+		 margin: 0 100px;}
+
+.manu{ float: left;  
+		height: 90px;
+		text-align: center;
+		line-height: 90px;
+		margin: 0 30px;
+			
+			}
+.manu a{ text-decoration: none; 
+			color: black;}
+/*#laymod_432933 .manu-1>a{ color: rgba(0,165,182,1) !important;}*/
+
+/*登录/注册*/
+.wg{ width: 180px; 
+/*	height: 30px; */
+	float: right; 
+	margin-right: 20px;
+	margin: 24px;}
+.wg-1{ width: 70px; 
+	height: 35px; 
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d0afc0;
+	text-align: center;
+	line-height: 2.4;
+	border-radius: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #7f1f59;
+	margin: 0 15px;}
+.wg-2{ width: 70px; 
+	height: 35px; 
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d0afc0;
+	text-align: center;
+	line-height: 2.4;
+	border-radius: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #F0FFF0;
+	background-color: #b9b3ff;}
+	
+.wg-1:hover{ background-color: #ee7cff;
+	 color: #FFFAF0;}
+.wg-2:hover{ background-color: #ee7cff;
+	 color: #FFFAF0;}
+/*商品*/
+.umkk-yuxl{ width: auto; 
+			height: 3000px; 
+			background: url(../img/umkk/uxjy2.jpg); 
+			background-repeat: no-repeat; 
+			background-size: 281%;}
+.umkk-yuxl-1{ width: 1460px; 
+			height: 3000px; 
+			margin: auto; 
+			}
+/*商品详细*/
+.yuxl{ width: 1000px; 
+		height: 3000px; 
+		background: #777777; 
+		float: left; 
+		margin: 0 10px;
+		margin-top: 20px;}
+.yuxl-nfte{ width: 1000px; height: 40px; background: #F0FFF0; line-height: 38px;}
+.yuxl-sfuw{ width: 1000px; height: 40px; background: #FFFFFF;}
+.yuxl-ltthuxl{ width: 50px; height: 360px; float: left; background: #4E4E4E; list-style-type: none;}
+.yuxl-ltth{ width: 582px; height: 582px; float: left; background: #8A0E26;}
+.yuxl-tusy{ width: 367px; height: 582px; float: left; background: #7D7D7D;}
+.yuxl-tusy-ih{ width: 270px; height: 516px; margin: auto; margin-top: 20px;}
+/*活动盒子*/
+.itfc{ width: 200px; 
+		height: 700px; 
+		
+		float: left; 
+		margin: 0 10px;
+		margin-top: 20px;}
+.itfc1{ width: 200px; height: 200px;}
+.itfc1>a>img{ width: 200px; height: 200px;}
+.itfc2{ width: 200px; height: 300px;}
+.itfc2>ul{ list-style-type: none;}
+.itfc3{ width: 200px; height: 200px; float: left;}
+.itfc3>a{ margin-left: 32px;}
+
+.itfc-2{ width: 200px; 
+			height: 800px;  
+			float: left; 
+			margin: 0 10px;
+			margin-top: 20px;}
+.itfc2-2>ul{ list-style-type: none;}
+.itfc2-2>ul>li>a{ text-decoration: none; color: #000000;}
+.itfc-2-rn{ width: 200px; 
+			height: 40px;}
+.itfc-2-rn>span{ margin-left: 60px; font-size: 15px; font-weight: bold;}
+.itfc-2-um{ width: auto;
+			height: 250px;
+			background: #B9B3FF;}
+
+.yuxl-nfte>a{ text-decoration: none; color: #000000;}
+.yuxl-sfuw>span{ font-size: 20px; color: #515151; font-weight: bold; margin-left: 30px; line-height: 40px;}

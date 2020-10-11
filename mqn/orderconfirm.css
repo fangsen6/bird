@@ -1,0 +1,111 @@
+.dib-wrap {
+	font-size:0;
+	*word-spacing:-1px
+}
+.dib-wrap .dib {
+	font-size:12px;
+	letter-spacing:normal;
+	word-spacing:normal;
+	vertical-align:top
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.dib-wrap {
+	letter-spacing:-5px
+}
+
+
+.address {
+	margin-bottom:40px
+}
+.address .manage-address {
+	float:right;
+	font-size:12px;
+	font-weight:400
+}
+.address .set-default {
+	margin-left:15px
+}
+.address h3 {
+	border-bottom:2px solid #f1f1f1;
+	margin-bottom:20px
+}
+.address .address-list li {
+	border:1px solid #fff;
+	*zoom:1;
+	line-height:24px;
+	padding-left:75px;
+	position:relative;
+	*padding-top:2px;
+	*padding-bottom:2px;
+	*border:0
+}
+.address .address-list li:hover {
+	background-color:#fffae5
+}
+.address li input,.address li label {
+	vertical-align:middle
+}
+.address li label {
+	}.address li.selected {
+	background-color:#fff5cc;
+	border:1px solid #ffe580
+}
+.address .marker {
+	background:url(http://img04.taobaocdn.com/tps/i4/T1sGyVXmlfXXXXXXXX-14-23.gif) no-repeat transparent;
+	position:absolute;
+	top:6px;
+	_top:1px;
+	left:10px;
+	width:15px;
+	height:25px;
+	display:none
+}
+.address .marker-tip {
+	position:absolute;
+	top:0;
+	left:30px;
+	color:#F50;
+	font-weight:700;
+	display:none;
+	_height:24px;
+	_line-height:24px
+}
+.address .modify {
+	display:none;
+	position:absolute;
+	right:10px
+}
+.address li.selected .marker,.address li.selected .marker-tip,.address li.selected .modify {
+	display:block
+}
+.address .address-bar {
+	margin-top:5px
+}
+.address .new {
+	margin-left:103px;
+	background:url(http://img04.taobaocdn.com/tps/i4/T1M2FrXeJvXXXXXXXX-91-27.png) no-repeat 0 -1px #fff;
+	width:90px;
+	height:25px;
+	display:inline-block;
+	font-size:0;
+	text-indent:-99px;
+	-webkit-text-size-adjust:none;
+	vertical-align:text-top
+}
+.address .new1 {
+	margin-left:103px;
+	background:url(../img/dqpg.png) no-repeat 0 -1px #fff;
+	width:90px;
+	height:25px;
+	display:inline-block;
+	font-size:0;
+	text-indent:-99px;
+	-webkit-text-size-adjust:none;
+	vertical-align:text-top
+}
+.address .edit {
+	margin-left:103px;
+	display:inline-block
+}
+
+

@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+/*logo*/
+.logo{ float: left;
+		 margin: 11px;}
+.nav_1-1{ width: 1250px; 
+		  height: 80px;
+			 z-index: 2; margin: auto;}
+.pf{ float: left; width: 800px; height: 20px;}
+.pfy{ float: left; width: 100px; height: 50px;}
+
+.nav_1{                        /*.容器整体 宽 高 的设定  */
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    position: relative;        /*固定一级菜单的位置*/
+	
+}
+.nav_1 ul{                     /* 具体菜单的宽高的设定*/
+    width: 788px;
+    float: left
+}
+.nav_1 ul li{                   /*去掉一级菜单的点，横向浮动*/
+    list-style:none;
+    float: left;
+}
+.nav_1 ul li a:link, .nav_1 ul li a:visited{         /*单个菜单的具体属性*/
+    display: block;
+    width: 115px;
+    height: 100%;
+    text-align:center;
+    text-decoration: none;
+    line-height: 50px;
+    color: #000000;
+}
+
+.nav_1 ul li ul li a:hover,.nav_1 ul li ul li a:active{           /*设定鼠标点击 移动过的属性*/
+    background-color: #f8eaff;
+}
+
+.nav_1 ul li ul{                      /* 二级菜单整体设定   */
+    display: none;                    /* 隐藏二级菜单列表*/
+    position: absolute;               /*二级菜单的位置固定*/
+}
+.nav_1 ul li:hover ul{
+    display: block;  /*二级菜单  将显示为块级元素*/
+    width:auto;   /*消除二级菜单的滚动条，因为继承了父级的宽度*/
+}
+.nav_1  ul li ul li{
+    float: none;                      /*消除二级菜单的浮动*/
+    background-color: #eadfff;
+}
+.nav_1-1 ul li.xe:hover:before{
+				content: '';
+                display: block;
+                width: 70px;
+                height: 2px;
+                background: #126EB7;
+                position: absolute;
+                top: 60px;
+                margin-left: 22px;
+}
+.nav_1-1 ul li.xe-e:hover:before{
+				content: '';
+                display: block;
+                width: 31px;
+                height: 2px;
+                background: #126EB7;
+                position: absolute;
+                top: 60px;
+                margin-left: 43px;
+}
+
+/*登录/注册*/
+.wg{ width: 180px; 
+	float: left; 
+	margin-top: 5px;}
+.wg-1{ width: 70px; 
+	height: 35px; 
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d0afc0;
+	text-align: center;
+	line-height: 2.4;
+	border-radius: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #7f1f59;
+	margin: 0 15px;}
+.wg-2{ width: 70px; 
+	height: 35px; 
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d0afc0;
+	text-align: center;
+	line-height: 2.4;
+	border-radius: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #F0FFF0;
+	background-color: #b9b3ff;}
+	
+.wg-1:hover{ background-color: #ee7cff;
+	 color: #FFFAF0;}
+.wg-2:hover{ background-color: #ee7cff;
+	 color: #FFFAF0;}

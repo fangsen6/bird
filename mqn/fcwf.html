@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>海岛水产-支付界面</title>
+        <style type="text/css">
+            html{background: #f7f7f7;}
+            body{background: #fff;color: #333;font-family: "MicrosoftYaHei" , "微软雅黑" ,Verdana,Arial;margin: 2em auto 0 auto;width: 700px;padding: 1em 2em;-moz-border-radius: 11px;-khtml-border-radius: 11px;-webkit-border-radius: 11px;border-radius: 11px;border: 1px solid #dfdfdf;}
+            a{color: #2583ad;text-decoration: none;}
+            a:hover{color: #d54e21;}
+            h1{border-bottom: 1px solid #dadada;clear: both;color: #666;margin: 5px 0 5px 0;padding: 0;padding-bottom: 1px;text-align: center;}
+            h2{text-align:center;font-size:30px;}
+            p{text-align: center;font-size:18px;}
+            div{margin-bottom:20px;}
+            ul{width:400px;margin:0 auto;}
+        </style>
+        <script type="text/javascript">
+            function seconds_back() {
+                if (all <= 0) {
+                   
+					window.location.href="../utdm.html";
+                }
+                var obj = document.getElementById("seconds_back");
+                if (obj)
+                    obj.innerHTML = all + " 秒后";
+                all--;
+            }
+            var all = 8;
+            if (all > 0)
+                window.setInterval("seconds_back();", 2000);
+        </script>
+        
+    </head>
+    <body>
+        <h1 id="logo">
+            <a href=''><img alt="海岛水产有限公司" src="../img/fcwf.JPG" width="200" height="300"/></a>
+        </h1>
+        <h2>
+  	请选择手机扫一扫。支付！
+        </h2>
+        <p>非常抱歉，网络支付功能还在开发中！</p>
+        <div>
+            <ul>
+                <li><a href="../utdm.html"><span id="seconds_back"></span>返回首页</a></li>
+            </ul>
+        </div>
+           <div>
+            <ul>
+                <li><a href="../mqn/demo1.html"><span id="seconds_back"></span>收货地址</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

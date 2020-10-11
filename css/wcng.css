@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+/*logo*/
+.logo{ float: left;
+		 margin: 11px;}
+.nav_1-1{ width: 1250px; 
+		  height: 90px;
+		  margin: auto;}
+.pf{ float: left; width: 800px; height: 20px;}
+.pfy{ float: left; width: 100px; height: 50px;}
+
+.nav_1{                        /*.容器整体 宽 高 的设定  */
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;        /*固定一级菜单的位置*/
+}
+.nav_1 ul{                     /* 具体菜单的宽高的设定*/
+    width: 788px;
+    float: left
+}
+.nav_1 ul li{                   /*去掉一级菜单的点，横向浮动*/
+    list-style:none;
+    float: left;
+}
+.nav_1 ul li a:link, .nav_1 ul li a:visited{         /*单个菜单的具体属性*/
+    display: block;
+    width: 115px;
+    height: 100%;
+    text-align:center;
+    text-decoration: none;
+    line-height: 50px;
+    color: #000000;
+}
+
+.nav_1 ul li ul li a:hover,.nav_1 ul li ul li a:active{           /*设定鼠标点击 移动过的属性*/
+    background-color: #f8eaff;
+}
+
+.nav_1 ul li ul{                      /* 二级菜单整体设定   */
+    display: none;                    /* 隐藏二级菜单列表*/
+    position: absolute;               /*二级菜单的位置固定*/
+}
+.nav_1 ul li:hover ul{
+    display: block;  /*二级菜单  将显示为块级元素*/
+    width:auto;   /*消除二级菜单的滚动条，因为继承了父级的宽度*/
+}
+.nav_1  ul li ul li{
+    float: none;                      /*消除二级菜单的浮动*/
+    background-color: #eadfff;
+}
+.nav_1-1 ul li.xe:hover:before{
+				content: '';
+                display: block;
+                width: 70px;
+                height: 2px;
+                background: #126EB7;
+                position: absolute;
+                top: 60px;
+                margin-left: 22px;
+}
+.nav_1-1 ul li.xe-e:hover:before{
+				content: '';
+                display: block;
+                width: 31px;
+                height: 2px;
+                background: #126EB7;
+                position: absolute;
+                top: 60px;
+                margin-left: 43px;
+}
+
+/*登录/注册*/
+.wg{ width: 180px; 
+	float: left; 
+	margin: 7px;}
+.wg-1{ width: 70px; 
+	height: 35px; 
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d0afc0;
+	text-align: center;
+	line-height: 2.4;
+	border-radius: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #7f1f59;
+	margin: 0 15px;}
+.wg-2{ width: 70px; 
+	height: 35px; 
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d0afc0;
+	text-align: center;
+	line-height: 2.4;
+	border-radius: 6px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #F0FFF0;
+	background-color: #b9b3ff;}
+	
+.wg-1:hover{ background-color: #ee7cff;
+	 color: #FFFAF0;}
+.wg-2:hover{ background-color: #ee7cff;
+	 color: #FFFAF0;}
+	 
+/*<!--公司介绍-->*/
+.wcngwjxv{ width: auto; height: 1500px; float: left;}
+.wcngwjxv-fgih{ width: auto; height: auto;}
+.jwxv{ width: auto; height: 170px;}
+.jwxv-sf{ width: 1100px; height: 150px; margin: auto;}
+.wc{ text-align: center; line-height: 45px; color: #00a5b6; font-size: 10px;}
+.wc-1{ height: 75px; text-align: center; color: #000000; font-size: 25px;}
+
+.wcngltth{ width: auto; height: 380px;}
+.wcngltth-ih{ width: 1100px; height: 385px; margin: auto;}
+.wcngltth-ih1>div{ float: left; margin: 0 8px;}
+
+.wjxv-pb{ width: auto; height: 230px;}
+.wjxv-pbih{ width: 1100px; height: 230px; margin: auto;}
+.pbih{ width: 1000px; height: 230px; margin: auto; border-style: solid; border-width: 1px; border-color: #CCCCCC;}
+.pbih>p{ color: #515151; font-size: 14px; text-indent: 21px; line-height: 30px; width: 850px; margin: auto;}
+.pbih>span{ color: #E3780E; font-size: 15px; font-weight: bold; margin-left: 20px;}
+.pbih>div{ width: auto; height: 40px;}
+
+
+/*底部*/
+.yquk{ width: 1920px;
+		height: 350px;
+		background: #333;
+		float: left;}
+.yquk1{ width: 1250px;
+		height: 250px;
+		margin: auto;}
+.yquk-mwpw{ width: 800px;
+			 height: 250px;
+			  float: left;}
+.yquk-mwpw1>span{ font-size: 25px;
+					 color: azure; 
+					 line-height: 100px;}
+.yquk-mwpw1>p{ color: #999; 
+				line-height: 30px; 
+				font-size: 15px;}
+.yquk-mwpw1>hr{ width: 500px; 
+				background-color: #7d7d7d; 
+				height: 1px; 
+				border: none;}
+.yquk-tm{ width: 450px; 
+			height: 250px; 
+			float: left;}
+.yquk-tm1{ width: 195px; 
+			height: 156px; 
+			margin-top: 50px;}
+.yquk-tm1>span{ float: left; 
+				font-size: 13px; 
+				color: #8c8c8c; 
+				margin-left: 8px;}
+.thsc{ width: 1920px; 
+		height: 100px; 
+		float: left;}
+.thsc1{ width: 1920px; 
+		height: 24px; 
+		margin-top: 34px;}
+.thcs1-1{ width: 960px; 
+			float: left;}
+.thcs1-2{ width: 960px; 
+			float: left;}
+.thcs1-1>span{ font-size: 10px; 
+				margin-left: 334px; 
+				color: #777777;}
+.thcs1-2>span{ font-size: 10px; 
+				margin-left: 174px; 
+				color: #777777;}
+a{ text-decoration: none;}
+.yquk>hr{	background-color: #4e4e4e; 
+				height: 1px; 
+				border: none;}
+@keyframes focusmap {
+
+    0%,
+  30% {
+    left: 0;
+  }
+  
+  35%,
+  65% {
+    left: -1920px;
+  }
+
+  70%,
+  99% {
+    left: -3840px;
+  }
+  100%{
+  	left: -5760px;
+  }

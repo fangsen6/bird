@@ -1,0 +1,134 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+body{
+	font-family: sans-serif;
+}
+	
+
+.footer{
+		width: 100%;
+
+		margin-top: -20px;
+		background-color: #EAEAEA;
+	}
+	.icon-row{
+		width: 975px;
+		height: 64px;
+		margin: 18px auto;
+	}
+	.footer-icon{
+		margin-left: 17px;
+		margin-right: 17px;
+		float: left;
+	}
+	.footer-icon-child{
+		overflow: hidden;
+		position: absolute;
+		width: 36px;
+		height: 42px;
+		background-image: url(../img/ico_service.png);
+		text-indent: -999px;
+	}
+	.footer-icon-child-2{
+		background-position: 0 -43px;
+	}
+	.footer-icon-child-3{
+		background-position: 0 -86px;
+	}
+	.footer-icon-child-4{
+		background-position: 0 -129px;
+	}
+	.footer-icon-text{
+		margin-left: 45px;
+		color: #444444;
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 80px;
+	}
+h5{margin-top:20px;
+   margin-bottom:10px;}	
+   .service-intro{
+		width: 100%;
+		border-top: 5px solid #e01222;}
+
+
+    /***************商品详情介绍和推荐侧边栏结束***************/
+/****************************商品详情页面结束*****************************/
+/****************************加入购物车页面开始*****************************/
+    .add-info-box-container{
+    	width: 100%;
+    	background-color: #F5F5F5;
+    }
+    .add-info-box{
+    	width: 90%;
+    	margin: 0px auto;
+    	padding: 15px 0px;
+    	display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .add-info-detail{
+    	display: flex;
+        flex-direction: column;
+    }
+    .add-info-title{
+    	font-size: 25px;
+    	color: #71b247;
+    }
+    .add-info-box-row{
+    	display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    .add-info-img{
+    	width: 56px;
+    	height: 56px;
+    	margin-right: 15px;
+    }
+    .add-info-img img{
+    	width: 100%;
+    }
+    .add-info-intro{
+    	display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .add-info-intro-detail{
+    	font-size: 12px;
+    	color: #999999;
+    }
+    .car-btn-group{
+    	display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   	/*按钮*/
+    .btn-car{
+    	padding: 8px 10px;
+    	font-size: 16px;
+    	border-radius: 0px;
+    	border:none;
+    	margin-right: 15px;
+    }
+    .btn-car-to-detail{
+    	background-color: #fff;
+    	color: #e4393c;
+    	border:1px solid #fff;
+    }
+    .btn-car-to-detail:hover{
+		border:1px solid #e4393c;
+    }
+    .btn-car-to-pay{
+    	background-color: #e4393c;
+    	color: #fff;
+    	border:1px solid #e4393c;
+    }
+    .btn-car-to-pay:hover{
+    	background-color: #c91623;
+    	border:1px solid #c91623;
+    }
+  

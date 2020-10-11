@@ -1,0 +1,59 @@
+body {
+	font:12px/1.5 Tahoma,Helvetica,Arial,'\5b8b\4f53',sans-serif;
+}
+html,legend {
+	color:#404040;
+	background:#fff;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style:none;
+}
+
+a {
+	color:#36c;
+	text-decoration:none;
+}
+a:hover {
+	color:#f60;
+	text-decoration:underline;
+}
+abbr,acronym {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+hr {
+	color:#D1D7DC;
+	background-color:#D1D7DC;
+	border:none;
+	height:1px;
+}
+html {
+	overflow-y:scroll;
+}
+#page,#page3 {
+	width:950px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#page3 {
+	width:750px;
+}
+.col-main {
+	float:left;
+	width:100%;
+}
+.col-sub,.col-extra {
+	float:left;
+}
+
